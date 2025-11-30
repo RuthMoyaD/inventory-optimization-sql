@@ -1,11 +1,210 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Relational Modeling & SQL Analytics in MySQL</title>
-</head>
-<body>
-    
-</body>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Relational Modelling and Analytics in SQL</title>
+
+  <!-- PDT VERSION EN INGLES -->
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <meta name="description" content="Case study: Efecto de tasas de interés e inflación global en criptomonedas y acciones tecnológicas (2018–2024). Dashboard Power BI embebido."/>
+  </head>
+
+  <body>
+    <header>
+      <nav class="navbar">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#projects">Proyectos</a></li>
+          <li><a href="index.html#about">Sobre Mí</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+
+        <div class="nav-right-controls">
+          <a href="case-study-en.html" id="lang-toggle" class="btn lang-toggle-btn" aria-label="Cambiar idioma a Inglés">EN</a>
+          <div class="burger" id="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="cs-hero-section">
+        <div class="cs-hero glass-effect">
+          <div class="cs-hero__kicker"><i class="fas fa-compass"></i> Case Study</div>
+          <h1 class="cs-title">Soy el titulo del Analytics</h1>
+          <p class="cs-subtitle">
+            Soy el subtitulo del Analytics
+          </p>
+          <div class="badge-list">
+            <span class="badge"><i class="fas fa-coins icon-amber"></i> Bitcoin</span>
+            <span class="badge"><i class="fas fa-chart-line icon-blue"></i> QQQ / Nasdaq-100</span>
+            <span class="badge"><i class="fas fa-percent icon icon-teal"></i> Tasas FED</span>
+            <span class="badge"><i class="fas fa-globe"></i> Inflación Global</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="container cs-section">
+        <article class="neo-card">
+          <h2 class="section-title">Contexto y objetivo del análisis</h2>
+          <div class="cs-two-col">
+            <div>
+              <h3 class="cs-h3"><i class="fas fa-map-signs icon-amber"></i> Contexto</h3>
+              <p>
+                Soy el contexto del Analytics
+              </p>
+            </div>
+            <div>
+              <h3 class="cs-h3"><i class="fas fa-bullseye icon-blue"></i> Objetivo</h3>
+              <p>
+                Soy el objetivo del Analytics. Y esto es un texto de prueba para ver cómo se ve el párrafo en esta sección.
+              </p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="container cs-section">
+        <article class="neo-card">
+          <h2 class="section-title">Esto va a ser una imagen</h2>
+
+          <div class="embed-responsive glass-effect">
+  <img
+    src="img/mockup informe 1.png"
+    alt="Vista del dashboard Power BI"
+    style="
+      width:100%;
+      height:auto;
+      display:block;
+      border-radius:16px;
+      box-shadow:6px 6px 12px #d0d0d0, -6px -6px 12px #ffffff;
+      background:#fff;
+    "
+  />
+</div>
+
+<div class="container" style="max-width:1100px; margin-top:14px;">
+  <div style="display:flex; gap:10px; justify-content:center; flex-wrap:wrap;">
+    <!-- PBIX -->
+    <a class="btn secondary-btn"
+       href="https://github.com/RuthMoyaD/ruth-moya-portfolio/blob/main/pbi/PowerBI_Case_MacroMarkets.pbix"
+       download>
+      Descargar ??
+    </a>
+
+    <!-- PDF -->
+    <a class="btn secondary-btn"
+       href="https://github.com/TU_USUARIO/TU_REPO/releases/latest/download/dashboard.pdf"
+       target="_blank" rel="noopener">
+      Descargar ??
+    </a>
+  </div>
+</div>
+        </article>
+      </section>
+
+      <section class="container cs-section">
+        <article class="neo-card">
+          <h2 class="section-title">Herramientas utilizadas</h2>
+          <ul class="tools-list">
+            <li><i class="fas fa-chart-pie icon-teal"></i> <strong>Power BI</strong> – limpieza, modelado y visualización</li>
+            <li><i class="fas fa-file-excel icon-amber"></i> <strong>Microsoft Excel / Power Query</strong> – preparación y unión de datasets</li>
+            <li><i class="fas fa-database icon-blue"></i> <strong>Fuentes de datos públicas</strong>:
+              <ul class="tools-sublist">
+                <li>FRED (Federal Reserve Economic Data)</li>
+                <li>World Bank Data</li>
+                <li>Investing.com</li>
+              </ul>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="container cs-section">
+        <article class="neo-card">
+          <h2 class="section-title">Fuentes de datos??</h2>
+
+          <div class="table-wrap">
+            <table class="data-table">
+              <thead>
+                <tr>
+                  <th>Fuente</th>
+                  <th>Descripción</th>
+                  <th>Enlace</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>FRED</td>
+                  <td>Tasa de fondos federales y CPI (inflación USA)</td>
+                  <td><a href="https://fred.stlouisfed.org" target="_blank" rel="noopener">fred.stlouisfed.org</a></td>
+                </tr>
+                <tr>
+                  <td>World Bank Data</td>
+                  <td>Inflación global (CPI, series por país y mundial)</td>
+                  <td><a href="https://data.worldbank.org" target="_blank" rel="noopener">data.worldbank.org</a></td>
+                </tr>
+                <tr>
+                  <td>Investing.com</td>
+                  <td>Precios de BTC y QQQ (históricos y en tiempo real)</td>
+                  <td><a href="https://www.investing.com" target="_blank" rel="noopener">investing.com</a></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+        </article>
+      </section>
+
+      <section id="contact" class="contact-section">
+        <div class="container contact-container">
+          <h3 class="section-title">Contacto</h3>
+          <p>Puedes encontrarme aquí, estaré encantada de conversar.</p>
+          <div class="contact-links">
+            <a href="https://www.linkedin.com/in/ruth-md/" target="_blank" aria-label="LinkedIn">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="mailto:ruth.moya.dantas@gmail.com" aria-label="Correo Electrónico">
+              <i class="fas fa-envelope fa-2x"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; Ruth Moya Dantas 2025</p>
+    </footer>
+
+    <script>
+      const burger = document.getElementById('burger');
+      const navLinks = document.getElementById('nav-links');
+      burger?.addEventListener('click', () => {
+        navLinks.classList.toggle('nav-active');
+        burger.classList.toggle('toggle');
+      });
+
+      const openBtn = document.getElementById('open-pbi');
+      const iframe = document.querySelector('.embed-responsive iframe');
+      if (openBtn && iframe) {
+        openBtn.addEventListener('click', (e) => {
+          e.preventDefault();
+          const url = iframe.getAttribute('src');
+          if (url && url !== '#' && url !== 'https://app.powerbi.com/view?r=TU_EMBED_ID') {
+            window.open(url, '_blank', 'noopener');
+          }
+        });
+      }
+    </script>
+  </body>
 </html>
