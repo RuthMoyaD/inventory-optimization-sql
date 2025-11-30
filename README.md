@@ -16,6 +16,3 @@ The project is inspired by a real-world business scenario where a company needs 
 3. Write SQL queries to analyze stock levels, product performance, and storage distribution.  
 4. Translate findings into clear recommendations.  
 
-## Repository Structure
-This structure will be expanded as the project progresses:
-
